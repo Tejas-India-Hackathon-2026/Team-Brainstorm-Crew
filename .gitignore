@@ -1,0 +1,59 @@
+# Node.js & Frontend Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/
+dist/
+dist
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# React Native & Expo
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+uploads/
+backend/uploads/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+*.xml
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+credentials.json
+*token.json*
+
+# IDE & Operating System
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

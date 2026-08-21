@@ -1,0 +1,77 @@
+/**
+ * Certified Partner / Technician Profiles & Capabilities
+ */
+export const TECHNICIANS = [
+  {
+    id: "tech-vikram",
+    name: "Vikram Sharma",
+    badge: "Master Pro",
+    specialty: "Electrical & Inverter Specialist",
+    rating: 4.96,
+    jobsCompleted: 1480,
+    experienceYears: 8,
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    phone: "+91 98765 43210",
+    vehicle: "Honda Activa (DL 3S CE 4421)",
+    currentLocation: { lat: 28.6139, lng: 77.2090, address: "Connaught Place, New Delhi" },
+    skills: ["MCB Faults", "Concealed Wiring", "AC Power Lines", "Earthing Audits"],
+    isOnline: true,
+    verification: "Government Certified Electrician (A-Grade)",
+    joinedYear: 2021,
+    about: "Former industrial electrician with 8+ years experience in high-voltage diagnostics, circuit troubleshooting, and smart home automation."
+  },
+  {
+    id: "tech-rajesh",
+    name: "Rajesh Kumar",
+    badge: "Top Rated",
+    specialty: "Master Plumber & Hydro Specialist",
+    rating: 4.92,
+    jobsCompleted: 2150,
+    experienceYears: 11,
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    phone: "+91 98112 34567",
+    vehicle: "Hero Splendor (DL 7S BQ 9102)",
+    currentLocation: { lat: 28.5355, lng: 77.3910, address: "Sector 18, Noida" },
+    skills: ["High-Pressure Leak Sealing", "Drain Snake Unclog", "Tank Booster Pumps", "CPVC Joints"],
+    isOnline: true,
+    verification: "ISO 9001 Plumbing Safety Certified",
+    joinedYear: 2019,
+    about: "Specialist in zero-damage acoustic leak detection and concealed pipeline hydro repair without dismantling expensive tiles."
+  },
+  {
+    id: "tech-amit",
+    name: "Amit Verma",
+    badge: "HVAC Specialist",
+    specialty: "AC & Refrigeration Engineer",
+    rating: 4.94,
+    jobsCompleted: 1890,
+    experienceYears: 7,
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+    phone: "+91 97123 98765",
+    vehicle: "TVS Jupiter (HR 26 DQ 1144)",
+    currentLocation: { lat: 28.4595, lng: 77.0266, address: "Cyber City, Gurugram" },
+    skills: ["Inverter AC PCB", "Nitrogen Leak Testing", "R32/R410A Refill", "Jet Foam Cleansing"],
+    isOnline: true,
+    verification: "Daikin & Voltas Factory Certified",
+    joinedYear: 2020,
+    about: "Precision technician equipped with digital manifold gauges, vacuum pumps, and high-pressure jet wash kits."
+  },
+  {
+    id: "tech-deepak",
+    name: "Deepak Saini",
+    badge: "Multi-Skilled",
+    specialty: "Appliance & Washing Machine Pro",
+    rating: 4.88,
+    jobsCompleted: 980,
+    experienceYears: 6,
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80",
+    phone: "+91 99554 11223",
+    vehicle: "Bajaj Pulsar (DL 4S TR 5581)",
+    currentLocation: { lat: 28.7041, lng: 77.1025, address: "Rohini, Delhi" },
+    skills: ["Drum Bearing Repair", "PCB Soldering", "Thermostat Calibration", "RO Water TDS"],
+    isOnline: true,
+    verification: "LG & Samsung Authorized Ex-Tech",
+    joinedYear: 2022,
+    about: "Expert in electronic micro-controller PCB diagnoses, drum motor balancing, and water purifier membrane health."
+  }
+];
